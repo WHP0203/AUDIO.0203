@@ -354,7 +354,7 @@ if (shaLoaded == 0 && geofs.fx.overg.shader) {
             clearInterval(flexInterval);
     //running the script
     var script737 = document.createElement('script');
-    script737.src="https://raw.githack.com/AbnormalHuman/GeoFS-737-Immersion-SFX/main/index.js";
+    script737.src="https://raw.githubusercontent.com/Ariakim-Taiyo/GeoFs-737-Immersion-SFX/refs/heads/main/index.js";
     document.body.appendChild(script737);
     script737.onload = function(){clearInterval(tcasIntervalAnnounce)};
    
@@ -365,7 +365,7 @@ if (shaLoaded == 0 && geofs.fx.overg.shader) {
        }
     //if the aircraft isn't a 737
     else {
-    //clearing the script when the aircraft isn't a 737 to avoid filling up the console with errors
+    //clearing the script when the aircraft isn't a to avoid filling up the console with errors
     if (typeof soundInt != undefined) {
        clearInterval(soundInt)
        clearInterval(tcasIntervalAnnounce)
@@ -374,7 +374,7 @@ if (shaLoaded == 0 && geofs.fx.overg.shader) {
     } else {
     void(0)
     };
-    //making sure the script can run again next time a 737 is selected
+    //making sure the script can run again next time a is selected
         b737Sounds = 0
        }
     }
